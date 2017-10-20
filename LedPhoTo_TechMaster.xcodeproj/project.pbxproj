@@ -13,6 +13,8 @@
 		848455A81F9A5CA100FFD9D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848455A61F9A5CA100FFD9D2 /* Main.storyboard */; };
 		848455AA1F9A5CA100FFD9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848455A91F9A5CA100FFD9D2 /* Assets.xcassets */; };
 		848455AD1F9A5CA100FFD9D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848455AB1F9A5CA100FFD9D2 /* LaunchScreen.storyboard */; };
+		848455BD1F9A5E4D00FFD9D2 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 848455BB1F9A5E4D00FFD9D2 /* Blue.png */; };
+		848455BE1F9A5E4D00FFD9D2 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 848455BC1F9A5E4D00FFD9D2 /* Orange.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		848455A91F9A5CA100FFD9D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848455AC1F9A5CA100FFD9D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848455AE1F9A5CA100FFD9D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848455BB1F9A5E4D00FFD9D2 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Blue.png; path = ../../../../Desktop/BallForLed/LED/Blue.png; sourceTree = "<group>"; };
+		848455BC1F9A5E4D00FFD9D2 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Orange.png; path = ../../../../Desktop/BallForLed/LED/Orange.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				848455A91F9A5CA100FFD9D2 /* Assets.xcassets */,
 				848455AB1F9A5CA100FFD9D2 /* LaunchScreen.storyboard */,
 				848455AE1F9A5CA100FFD9D2 /* Info.plist */,
+				848455BA1F9A5DF600FFD9D2 /* Imges */,
 				8484559D1F9A5CA100FFD9D2 /* Supporting Files */,
 			);
 			path = LedPhoTo_TechMaster;
@@ -77,6 +82,15 @@
 				8484559E1F9A5CA100FFD9D2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		848455BA1F9A5DF600FFD9D2 /* Imges */ = {
+			isa = PBXGroup;
+			children = (
+				848455BB1F9A5E4D00FFD9D2 /* Blue.png */,
+				848455BC1F9A5E4D00FFD9D2 /* Orange.png */,
+			);
+			name = Imges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				848455AD1F9A5CA100FFD9D2 /* LaunchScreen.storyboard in Resources */,
+				848455BE1F9A5E4D00FFD9D2 /* Orange.png in Resources */,
 				848455AA1F9A5CA100FFD9D2 /* Assets.xcassets in Resources */,
 				848455A81F9A5CA100FFD9D2 /* Main.storyboard in Resources */,
+				848455BD1F9A5E4D00FFD9D2 /* Blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
