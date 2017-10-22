@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *LedPhoto;
+//@property (weak, nonatomic) IBOutlet UIImageView *LedPhoto;
 
 @end
 
@@ -23,12 +23,14 @@
     // Hoac dung self.LedPhoto.image --> truy xuat property
      // _LedPhoto -> Truy xuat toi instance variable
     
-    // In ra đia chỉ file binary sau khi được biên dich'
-    NSString *path =[[NSBundle mainBundle] resourcePath];
+    // In ra đia chỉ file binary sau khi được biên dich'/
+    
+  //  NSString *path =[[NSBundle mainBundle] resourcePath];
+    
     // NSString *path ==>> Con tro path kieu string
     // Kêt quả trả về của [ NSBundle mainBundle] là chủ thể trong lời gọi phương thức resourcePath
     // NSBundle là đôi tượng gọi phương thức mainBundle
-    NSLog(@"%@",path);
+   // NSLog(@"%@",path);
 }
 
 
